@@ -10,7 +10,7 @@ title: 睿科轻医美
 email: 990210wyx@gmail.com
 description: 年轻人喜欢的轻医美品牌
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "drric.cn" # the base hostname & protocol for your site
 
 # Social settings
 500px_url: 
