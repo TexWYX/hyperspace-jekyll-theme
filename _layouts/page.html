@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Elements - Hyperspace by HTML5 UP</title>
+		<title>最新动态 - 睿科轻医美</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -18,12 +18,12 @@
 
 		<!-- Header -->
 			<header id="header">
-				<a href="index.html" class="title">Hyperspace</a>
+				<a href="index.html" class="title">最新动态</a>
 				<nav>
 					<ul>
-						<li><a href="{{ '' | absolute_url }}">Home</a></li>
-						<li><a href="generic.html">Generic</a></li>
-						<li><a href="elements.html"  class="active">Elements</a></li>
+						<li><a href="{{ 'index' | absolute_url }}">主页</a></li>
+						<li><a href="{{ 'post' | absolute_url }}" class="active">最新动态</a></li>
+						<li><a href="{{ 'stores' | absolute_url }}">查找门店</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -34,11 +34,9 @@
 				<!-- Main -->
 					<section id="main" class="wrapper">
 						<div class="inner">
-							<h1 class="major">Elements</h1>
-
+							<h1 class="major">{{ page.title }}</h1>
 							<!-- Text -->
 								<section>
-									<h2>{{ page.title }}</h2>
 									{{ content }}
 								</section>
 						</div>
